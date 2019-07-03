@@ -1,0 +1,16 @@
+/*
+  This will select only a section that directly follows another section
+*/
+/* aside + section {
+  margin: 20px 0 10px 0;
+  background-color: red;
+} */
+
+
+/*
+  This will select all sibling sections regardless if they are direct
+*/
+section ~ section {
+  margin: 20px 0 10px 0;
+  background-color: yellowgreen;  
+}
